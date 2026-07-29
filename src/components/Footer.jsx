@@ -11,10 +11,10 @@ const Footer = () => {
   // Fix: Changed paths to Hash Links (#) for smooth scrolling
   const navLinks = [
     { name: 'Home', path: '#home' },
-    { name: 'About', path: '#about' },
-    { name: 'Services', path: '#services' },
-    { name: 'Portfolio', path: '#portfolio' },
-    { name: 'Contact', path: '#contact' }
+    { name: 'About', path: 'https://zainjutt099.github.io/about' },
+    { name: 'Services', path: 'https://zainjutt099.github.io/services' },
+    { name: 'Portfolio', path: 'https://zainjutt099.github.io/portfolio' },
+    { name: 'Contact', path: 'https://zainjutt099.github.io/contact' }
   ];
 
   const socialLinks = [
@@ -46,7 +46,7 @@ const Footer = () => {
               <span className="text-2xl font-heading font-bold tracking-widest text-white">MUHAMMAD ZAIN</span>
             </div>
             <p className="text-gray-400 max-w-sm text-lg leading-relaxed mb-8">
-              Founder of Nexvora Tech. Crafting high-performance digital experiences that merge dynamic web development with cutting-edge technology.
+              Crafting high-performance digital experiences that merge dynamic web development with cutting-edge technology.
             </p>
             
             <a href="mailto:zainjutt0167@gmail.com" className="group flex items-center space-x-3 text-white font-medium hover:text-blue-400 transition-colors">
