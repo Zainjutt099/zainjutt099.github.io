@@ -33,7 +33,9 @@ const ContactPage = () => {
               </div>
               <div>
                 <p className="text-gray-500 text-sm font-medium uppercase tracking-widest mb-1">Email</p>
-                <p className="text-white font-medium text-lg group-hover:text-blue-400 transition-colors">hello@mzain.com</p>
+                <p className="text-white font-medium text-lg group-hover:text-blue-400 transition-colors">zainjutt0167@gmail.com</p>
+                <p className="text-gray-500 text-sm font-medium uppercase tracking-widest mb-1">linkedin</p>
+                <p className="text-white font-medium text-lg group-hover:text-blue-400 transition-colors">https://www.linkedin.com/in/zain-jutt-094618241/</p>
               </div>
             </a>
             
