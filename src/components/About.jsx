@@ -1,3 +1,5 @@
+'use client'; // Required if using Next.js App Router with Framer Motion
+
 import React from 'react';
 import { motion } from 'framer-motion';
 import ScrollRevealText from './ScrollRevealText';
