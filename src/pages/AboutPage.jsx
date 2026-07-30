@@ -56,7 +56,7 @@ const AboutPage = () => {
           <div className="relative w-full h-[400px] rounded-3xl overflow-hidden shadow-2xl border border-white/5 group">
             <div className="absolute inset-0 bg-gradient-to-t from-[#050508] via-transparent to-transparent z-10"></div>
             <img 
-              src="/2.png" 
+              src="/4.png" 
               alt="M. Zain working" 
               className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-1000"
             />
