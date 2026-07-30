@@ -41,10 +41,10 @@ const AboutPage = () => {
           </div>
 
           <div className="flex gap-4 pt-4">
-            <a href="/portfolio" className="border border-white/10 hover:border-blue-500/50 hover:bg-blue-500/10 px-8 py-3 rounded-full text-white transition-all">
+            <a href="https://zainjutt099.github.io/portfolio" className="border border-white/10 hover:border-blue-500/50 hover:bg-blue-500/10 px-8 py-3 rounded-full text-white transition-all">
               View My Work
             </a>
-            <a href="/contact" className="px-8 py-3 rounded-full text-gray-300 hover:text-white transition-all">
+            <a href="https://zainjutt099.github.io/contact" className="px-8 py-3 rounded-full text-gray-300 hover:text-white transition-all">
               Contact Me
             </a>
           </div>
@@ -56,7 +56,7 @@ const AboutPage = () => {
           <div className="relative w-full h-[400px] rounded-3xl overflow-hidden shadow-2xl border border-white/5 group">
             <div className="absolute inset-0 bg-gradient-to-t from-[#050508] via-transparent to-transparent z-10"></div>
             <img 
-              src="/back-portrait.png" 
+              src="/2.png" 
               alt="M. Zain working" 
               className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-1000"
             />
