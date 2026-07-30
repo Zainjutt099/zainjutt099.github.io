@@ -66,7 +66,7 @@ const About = () => {
              <div className="w-[360px] h-[580px] bg-gradient-to-b from-[#050508] to-transparent rounded-t-full border border-white/5 flex items-end justify-center backdrop-blur-md shadow-[0_30px_60px_-15px_rgba(0,0,0,0.5)] overflow-hidden relative">
               <div className="absolute inset-0 bg-gradient-to-b from-blue-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 z-10"></div>
               <img 
-                src="/2.png" 
+                src="/4.png" 
                 alt="Portrait of M. Zain from back" 
                 className="w-full h-full object-cover object-center relative z-0 transform group-hover:scale-105 transition-transform duration-700"
               />
