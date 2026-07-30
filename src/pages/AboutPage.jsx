@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom'; // یہ لائن شامل کی گئی ہے
 
 const AboutPage = () => {
   const skills = [
@@ -30,7 +31,7 @@ const AboutPage = () => {
           
           <div className="space-y-6 text-gray-400 text-lg font-light leading-relaxed">
             <p>
-              Hi, I'm M. Zain. I'm a passionate creative developer specializing in building immersive digital experiences that blur the line between design and engineering.
+              Hi, I'm MUHAMMAD Zain. I'm a passionate creative developer specializing in building immersive digital experiences that blur the line between design and engineering.
             </p>
             <p>
               With a background in both visual design and full-stack development, I approach every project not just as code, but as a narrative. My goal is to build interfaces that feel alive, using smooth animations, physics-based interactions, and high-performance rendering.
@@ -41,12 +42,19 @@ const AboutPage = () => {
           </div>
 
           <div className="flex gap-4 pt-4">
-            <a href="https://zainjutt099.github.io/portfolio" className="border border-white/10 hover:border-blue-500/50 hover:bg-blue-500/10 px-8 py-3 rounded-full text-white transition-all">
+            {/* <a> ٹیگ کی جگہ <Link> استعمال کیا گیا ہے اور href کی جگہ to="/portfolio" */}
+            <Link 
+              to="/portfolio" 
+              className="border border-white/10 hover:border-blue-500/50 hover:bg-blue-500/10 px-8 py-3 rounded-full text-white transition-all"
+            >
               View My Work
-            </a>
-            <a href="https://zainjutt099.github.io/contact" className="px-8 py-3 rounded-full text-gray-300 hover:text-white transition-all">
+            </Link>
+            <Link 
+              to="/contact" 
+              className="px-8 py-3 rounded-full text-gray-300 hover:text-white transition-all"
+            >
               Contact Me
-            </a>
+            </Link>
           </div>
         </div>
 
@@ -56,8 +64,8 @@ const AboutPage = () => {
           <div className="relative w-full h-[400px] rounded-3xl overflow-hidden shadow-2xl border border-white/5 group">
             <div className="absolute inset-0 bg-gradient-to-t from-[#050508] via-transparent to-transparent z-10"></div>
             <img 
-              src="/2.png" 
-              alt="M. Zain working" 
+              src="/front-protrait(2).png" 
+              alt="MUHAMMAD Zain working" 
               className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-1000"
             />
           </div>
